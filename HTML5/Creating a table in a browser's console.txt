@@ -1,0 +1,26 @@
+<!--type the following in a a browser's console, accessed by right-clicking and selecting 'inspect'-->
+
+<!--copy the following text and press the "enter" button-->
+
+let devices = [
+  {
+    name: 'iPhone',
+    brand: 'Apple'
+  },
+  {
+    name: 'Galaxy',
+    brand: 'Samsung'
+  }
+]
+
+<!--Now for the desired output, type the following as required-->
+
+console.table(devices)
+
+<!--or-->
+
+console.table(devices, ['brand'])
+
+<!--or-->
+
+console.clear

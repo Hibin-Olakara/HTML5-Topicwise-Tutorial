@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p id = "p1"onmouseover="myfun(this)"onmouseout="myfun1(this)">This is a paragraph 1. </p>
+        <p id = "p2"onmouseover="myfun(this)">This is a paragraph 2. </p>
+    <script>
+        function myfun(x)
+        {
+            alert("Onmouseover event is called.");
+            x.style.backgroundColor="Blue";
+        }
+        function myfun1(x){
+            x.style.backgroundColor = "orange";
+        }
+        </script>
+    </body>
+</html>

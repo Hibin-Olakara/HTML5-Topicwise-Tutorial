@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>DOM Example
+        <title>This is DOM (Document Object Model) Example</title>
+    </head>
+    <body>
+        <h1>This is heading 1</h1>
+        <p id = "p1">This is a paragraph
+            <a href = "VSC - Javascript.html">Click Here</p>
+        <a href = "VSC - Javascript.html">Click Here</a>
+    <script>
+        let doc = document.getElementById('p1').innerText;
+        console.log(doc);
+    </script>
+    </body>
+</html>
+<!--If you use .innerText in the script, the output in the console displays only the text. However, if you replace it with .innerHTML, the output displays both the text and the html code involved as well.-->

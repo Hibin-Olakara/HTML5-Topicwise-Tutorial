@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Addition of two numbers using prompt box in Javascript</title>
+    </head>
+    <body>
+        <script type = "text/javascript">
+            var num1 = parseInt(prompt("Enter first number : "));
+            var num2 = parseInt(prompt("Enter second number :"));
+            var sum = num1+num2;
+            document.write("Sum of two numbers is :", sum);
+            var qry = confirm("Are you sure you want to save ?");
+            if(qry){
+                alert("Work Saved");
+            }
+            else{
+                document.write("<br>" + "Work Not Saved");
+            }
+        </script>
+    </body>
+</html>

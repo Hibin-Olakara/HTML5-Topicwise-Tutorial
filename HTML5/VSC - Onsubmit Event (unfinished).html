@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>onsubmit Event</title>
+<!--Alternate Method-Type here as follows:
+<script type = text/javascript>
+var name = document.getElementById('fname').value
+var rno = document.getElementById('fnumber').value
+var add = document.getElementById('faddress').value
+var email = document.getElementById('femail').value
+alert(email + rno + and + email)
+</script>
+-->
+    </head>
+    <body>
+        <h1>The onsubmit Event</h1>
+<form onsubmit = "alert('Name :' + document.getElementById('fname').value + '<br>' + 'Roll Number :' + document.getElementById('fnumber').value + '<br>' + 'Address :' + document.getElementById('faddress').value + '<br>' + 'Email id :' + document.getElementById('femail').value);">
+        <b>Application Form</b>
+        <p>Fill the form and click the SUBMIT button</p>
+        <br>
+        <b>Name:</b><input type="text" id="fname" value="">
+        <br>
+        <b>Roll Number:</b><input type="text" id="fnumber" value="">
+        <br>
+        <b>Adress:</b><input type="text" id="faddress" value="">
+        <br>
+        <b>Email id:</b><input type="text" id="femail" value="">
+        <br>
+        <input type="submit" value="SUBMIT">
+        </form>
+    </body>
+</html>
